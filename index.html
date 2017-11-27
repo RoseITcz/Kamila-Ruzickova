@@ -1,12 +1,40 @@
-<html>
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Kamila Ruzickova</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="zoom100.css">
   </head>
   <body>
     <h1>Kamila</h1>
-    <h2>Special edu</h2>
+    <div id="header">
+      <div id="panelhead">
+        <a href="index.html"><img id="logo" src="logos/profilePicture.jpg" alt="Kamila's profile picture, which shows her face."></a>
+        <h1 id="main-header">Kamila Ruzickova</h1>
+        <h2 id="main-subheader">Specialist, scientist<br>and publisher in the field<br>of special education</h2>
+      </div>
+    </div>
+
+    <div id="panel">
+      <div id="menu">
+        <a id="firstmenuitem" style="border-top: solid #61dafb 2px;" class="menuitem1" href="#" onclick="renderHome()">Home</a>
+        <a class="menuitem1_1" href="#" onclick="renderAbout()">About</a>
+        <a class="menuitem2" href="#" onclick="renderCV()">Professional CV</a>
+        <a class="menuitem3" href="#" onclick="renderPublications()">Publications</a>
+        <a class="menuitem4" href="#" onclick="showArticles()">Articles</a>
+        <a class="menuitem5" href="#" href="#" onclick="showActivities()">Other activities</a>
+        <a id="lastmenuitem" style="border-bottom: solid #61dafb 2px;" class="menuitem5" href="#" onclick="showNavigation()">Navigation</a>
+      </div>
+      <div id="links">
+        <a href="https://www.facebook.com/kamila.ruzickova.566"><img class="linkicons" src="logos/facebook.svg" alt="Facebook icon, containing white letter F and blue background. On click, Kamila's facebook page will appear."></a>
+        <a href="https://www.linkedin.com/in/růžičková-kamila-94b75454/"><img class="linkicons" src="logos/linkedin.svg" alt="Logo of linkedin, black letters in and blue background. On click, Kamila's linked in website appears"></a>
+      </div>
+      <div id="ending">
+        <a href="http://www.facebook.com/"><p>&#x24B8; Karel Ruzicka 2017</p></a>
+      </div>
+    </div>
+    <div id="here"></div>
+    <script src="fn.js"></script>
+
   </body>
-</html>
