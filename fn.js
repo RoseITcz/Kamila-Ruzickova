@@ -10,9 +10,6 @@ function renderCV() {
 function renderPublications() {
      document.getElementById("here").innerHTML='<object type="text/html" data="pages/publications.html" ></object>';
 }
-function renderArticles() {
-     document.getElementById("here").innerHTML='<object type="text/html" data="pages/articles.html" ></object>';
-}
 function renderActivities() {
      document.getElementById("here").innerHTML='<object type="text/html" data="pages/activities.html" ></object>';
 }
