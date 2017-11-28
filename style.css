@@ -4,7 +4,7 @@
   overflow: auto;
   top:0%;
   min-width: 12em;
-  
+
   width: 19%;
   margin: -8px;
   font-family: sans-serif;
@@ -12,6 +12,7 @@
   text-align: center;
 }
 #logo{
+  margin-top: 2%;
   width:60%;
 }
 #main-header{
