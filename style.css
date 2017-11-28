@@ -37,7 +37,7 @@ html, body{
 }
 #menu a {
     display: block; /* Make the links appear below each other */
-    padding: 6%; /* Add some padding */
+    padding: 5%; /* Add some padding */
     border-left: solid #61dafb 2px;
     border-right:solid #61dafb 2px;
     border-top: solid #61dafb 1px;
@@ -76,6 +76,7 @@ html, body{
   color:grey;
   text-decoration: none;
 }
+
 #here{
   position: absolute;
   left: 28%;
