@@ -44,6 +44,7 @@
     color:#222;
     border-left: solid #222 2px;
     border-right: solid #222 2px;
+    font-weight: bold;
 }
 #menu a:active {
     background-color: green;
