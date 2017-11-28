@@ -2,7 +2,7 @@
   background-color: #222;
   position: fixed;
   overflow: auto;
-  bottom:0%;
+  top:0%;
   min-width: 12em;
   height: 100%;
   width: 19%;
