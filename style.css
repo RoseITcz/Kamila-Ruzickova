@@ -69,6 +69,7 @@
   position: absolute;
   left: 28%;
   width: 81%;
+  overflow-x: hidden;
   height: inherit;
 }
 #here object {
