@@ -1,7 +1,7 @@
 #panel{
-  background-color: #222;
+  background-color: #033a49;
   position: fixed;
-  overflow: auto;
+  overflow-y: auto;
   top:0%;
   min-width: 12em;
   width: 19%;
@@ -13,7 +13,7 @@
 #logo{
   padding-top: 2%;
   width:60%;
-  border-radius: 15%;
+  border-radius: 25%;
 }
 #main-header{
   font-size:140%;
@@ -26,14 +26,15 @@
   margin: auto;
   margin-top: 7%;
   width:83%;
-  
   text-align: center;
+
 }
 #menu a {
     display: block; /* Make the links appear below each other */
     padding: 5%; /* Add some padding */
-
-    background-color: #222; /* Grey background color */
+    border-radius: 10%;
+    margin: 4px;
+    background-color: #022731; /* Grey background color */
     color: white; /* Black text color */
     text-decoration: none; /* Remove underline from links */
     font-family: sans-serif;
@@ -41,7 +42,7 @@
 }
 #menu a:hover {
     background-color: #61dafb;
-    color:#222;
+    color: black;
     border-left: solid #222 2px;
     border-right: solid #222 2px;
 }
