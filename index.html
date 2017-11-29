@@ -1,17 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <script>
-    /*  document.getElementById("panel").style.height = (window.innerHeight*0.1);
-      || document.documentElement.clientHeight
-      || document.body.clientHeight;
-      alert(window.innerHeight);
-   */
-    </script>
     <meta charset="utf-8">
     <title>Kamila Ruzickova</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="zoom100.css">
   </head>
   <body>
     <div id="panel">
@@ -21,12 +13,11 @@
           <h2 id="main-subheader">Specialist, scholar<br>and publisher in the field<br>of special education</h2>
 
       <div id="menu">
-        <a id="firstmenuitem" class="menuitem1" href="#" onclick="renderHome()">Home</a>
-        <a class="menuitem1_1" href="#" onclick="renderAbout()">About</a>
-        <a class="menuitem2" href="#" onclick="renderCV()">Professional CV</a>
-        <a class="menuitem3" href="#" onclick="renderPublications()">Publications</a>
-        <a class="menuitem5" href="#" href="#" onclick="showActivities()">Other activities</a>
-        <a id="lastmenuitem" class="menuitem5" href="#" onclick="showNavigation()">Navigation</a>
+        <a id="home" class="menuitem1" style="background-color: #61dafb;color:black" href="#" onclick="renderHome()">Home</a>
+        <a id="about" class="menuitem1_1" href="#" onclick="renderAbout()">About</a>
+        <a id="cv" class="menuitem2" href="#" onclick="renderCV()">Professional CV</a>
+        <a id="publications" class="menuitem3" href="#" onclick="renderPublications()">Publications</a>
+        <a id="navigation" class="menuitem5" href="#" onclick="showNavigation()">Navigation</a>
       </div>
       <div id="links">
         <a href="https://www.facebook.com/kamila.ruzickova.566"><img class="linkicons" src="logos/facebook.svg" alt="Facebook icon, containing white letter F and blue background. On click, Kamila's facebook page will appear."></a>
@@ -36,7 +27,9 @@
         <a href="http://www.facebook.com/"><p>&#x24B8; Karel Ruzicka 2017</p></a>
       </div>
     </div>
-    <div id="here"></div>
+    <div id="here">
+      <img id="logo" src="../logos/logo.svg" alt="Logo of the website, contains two eyes and their eyebrows. The logo is in blue and white on black background.">
+    </div>
     <script src="fn.js"></script>
 
   </body>
