@@ -47,7 +47,7 @@ body{
     background-color: #61dafb;
     color: black;
 }
-#menu a:focus, a:active {
+#menu a:active {
     background-color: #61dafb;
     color: black;
 }
