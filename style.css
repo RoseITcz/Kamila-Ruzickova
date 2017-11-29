@@ -72,6 +72,8 @@ body{
   top=0%;
   left: 25vw;
   width: 74.99vw;
+  line-break:auto;
   height: 100vh;
   margin-top: -8px;
+
 }
