@@ -2,13 +2,12 @@ var prevLink="home";
 function changeLinkStyle(eleID){
     document.getElementById(eleID).style.background='#61dafb';
     document.getElementById(eleID).style.color='black';
-    document.getElementById(prevLink).style.background='#022731';
-    document.getElementById(prevLink).style.color='white';
+    if (eleID != prevLink){
+      document.getElementById(prevLink).style.background='#022731';
+      document.getElementById(prevLink).style.color='white';}
     //alert(eleID);
     //alert(prevLink);
-    if (eleID != prevLink){
       prevLink=eleID;
-    }
 }
 
 //Rendering MENU
