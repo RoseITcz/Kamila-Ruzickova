@@ -1,3 +1,6 @@
+body{
+  overflow: hidden;
+}
 #panel{
   background-color: #033a49;
   position: fixed;
@@ -28,7 +31,6 @@
   margin-top: 1vw;
   width:22vw;
   text-align: center;
-
 }
 #menu a {
     display: block; /* Make the links appear below each other */
@@ -49,7 +51,6 @@
     background-color: #61dafb;
     color: black;
 }
-
 #links{
   margin-top: 5%;
 }
@@ -58,7 +59,7 @@
 }
 #ending{
   text-align: center;
-  font-size:12px;
+  font-size:0.8vw;
   color: gray;
 }
 #ending a{
@@ -66,14 +67,11 @@
   text-decoration: none;
 }
 
-#here{
-  position: absolute;
-  left: 23%;
-  width: 61%;
-  overflow-x: hidden;
-  height: inherit;
-}
 #here object {
-  width: 100%;
-  height: 500%;
+  position: fixed;
+  top=0%;
+  left: 25vw;
+  width: 74.99vw;
+  height: 100vh;
+  margin-top: -8px;
 }
