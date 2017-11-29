@@ -5,9 +5,7 @@ function changeLinkStyle(eleID){
     if (eleID != prevLink){
       document.getElementById(prevLink).style.background='#022731';
       document.getElementById(prevLink).style.color='white';}
-    //alert(eleID);
-    //alert(prevLink);
-      prevLink=eleID;
+    prevLink=eleID;
 }
 
 //Rendering MENU
