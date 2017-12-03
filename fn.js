@@ -7,7 +7,6 @@ function changeLinkStyle(eleID){
       document.getElementById(prevLink).style.color='white';}
     prevLink=eleID;
 }
-
 //Rendering MENU
 function renderHome() {
      document.getElementById("here").innerHTML='<object type="text/html" data="pages/home.html" ></object>';

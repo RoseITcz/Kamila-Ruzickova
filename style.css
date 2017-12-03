@@ -47,21 +47,19 @@ body{
     background-color: #61dafb;
     color: black;
 }
-#menu a:active {
-    background-color: #61dafb;
-    color: black;
-}
 #links{
   margin-top: 0.6vw;
 }
 .linkicons{
-  width: 20%;
+  width: 3.9vw;
+  margin: -0.1vw;
 }
 #ending{
   text-align: center;
   font-size:0.8vw;
   margin-top:-0.8vw;
   color: gray;
+  margin-bottom: -1vw;
 }
 #ending a{
   color:grey;
