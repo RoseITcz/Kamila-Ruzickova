@@ -7,5 +7,5 @@ function kisses(){
 	  while(X>0){
 	     pusinka();
 	     X=X+1;
-	  }
+	  } 
 	}
