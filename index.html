@@ -5,20 +5,21 @@
     <title>PhDr. Kamila Ruzickova, Ph.D.</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body onload="renderHome()">
+  <body onload="renderAbout()">
+    <div id="topPanel">
+      <div id="menu">
+        <a id="about" class="menuitem1" style="background-color: #61dafb;color:black" href="#" onclick="renderAbout()">O mě</a>
+        <a id="cv" class="menuitem2" href="#" onclick="renderCV()">Professional CV</a>
+        <a id="publications" class="menuitem3" href="#" onclick="renderPublications()">Publications</a>
+        <a id="navigation" class="menuitem5" href="#" onclick="showNavigation()">Navigation</a>
+      </div>
+    </div>
     <div id="panel">
 
           <a href="index.html"><img id="logo" src="logos/profilePicture.jpg" alt="Kamila's profile picture, which shows her face."></a>
           <h1 id="main-header">PhDr. Kamila Ruzickova, Ph.D.</h1>
           <h2 id="main-subheader">Specialist, scholar<br>and publisher in the field<br>of special education</h2>
 
-      <div id="menu">
-        <a id="home" class="menuitem1" style="background-color: #61dafb;color:black" href="#" onclick="renderHome()">Home</a>
-        <a id="about" class="menuitem1_1" href="#" onclick="renderAbout()">About</a>
-        <a id="cv" class="menuitem2" href="#" onclick="renderCV()">Professional CV</a>
-        <a id="publications" class="menuitem3" href="#" onclick="renderPublications()">Publications</a>
-        <a id="navigation" class="menuitem5" href="#" onclick="showNavigation()">Navigation</a>
-      </div>
       <div id="links">
         <a href="https://www.facebook.com/kamila.ruzickova.566"><img class="linkicons" src="logos/facebook.svg" alt="Facebook icon, containing white letter F and blue background. On click, Kamila's facebook page will appear."></a>
         <a href="https://www.linkedin.com/in/růžičková-kamila-94b75454/"><img class="linkicons" src="logos/linkedin.svg" alt="Logo of linkedin, black letters in and blue background. On click, Kamila's linked in website appears"></a>
