@@ -17,12 +17,11 @@ body{
   background-color: #033a49;
   position: fixed;
   overflow-y: auto;
-  top:10vh;
+  top:9.4vh;
   left: 1vw;
-  height: 89vh;
+  height: 89.6vh;
   width: 20vw;
   border-radius: 10px;
-
   font-family: sans-serif;
   color: white;
   text-align: center;
@@ -51,19 +50,21 @@ body{
 }
 #menu a {
     display: inline-block; /* Make the links appear below each other */
-    height: 6vh;
-    padding-top: 1vh; /* Add some padding */
+    height: 5vh;
+    padding-top: 1.9vh; /* Add some padding */
+    margin-top: 0.3vh;
+    margin-left: -0.5vh;
     padding-bottom: 1vh; /* Add some padding */
     padding-left: 1.2vw;
     padding-right: 1.2vw;
     width: 12vw;
     border-top-left-radius: 4vh;
     border-top-right-radius: 4vh;
-    background-color: #022731;
-    color: white;
+    background-color: rgb(192,206,209);
+    color: black;
     text-decoration: none; /* Remove underline from links */
     font-family: sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.9vw;
 }
 .menuitem:hover {
     background-color: rgba(255,255,255,1);

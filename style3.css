@@ -6,9 +6,18 @@
   width: 90vw;
   left: 0vw;
 }
+h1{
+  font-size: 7vh;
+  text-align: left;
+  font-family: sans-serif;
+}
+h2,h3,ul,li,tr,td{
+  font-family: sans-serif;
+}
 p,td {
   font-size: 4vh;
   line-height: 8vh;
+  font-family: sans-serif;
 }
 td{
   min-width: 15vw;

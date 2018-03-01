@@ -4,8 +4,8 @@ function changeLinkStyle(eleID){
     document.getElementById(eleID).style.color='black';
     if (eleID != prevLink){
 
-      document.getElementById(prevLink).style.background='#022731';
-      document.getElementById(prevLink).style.color='white';
+      document.getElementById(prevLink).style.background='rgba(255,255,255,0.75)';
+      document.getElementById(prevLink).style.color='black';
     }
     prevLink=eleID;
 }
