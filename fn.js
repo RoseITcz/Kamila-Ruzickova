@@ -1,10 +1,12 @@
-var prevLink="home";
+var prevLink="about";
 function changeLinkStyle(eleID){
-    document.getElementById(eleID).style.background='#61dafb';
+    document.getElementById(eleID).style.background='white';
     document.getElementById(eleID).style.color='black';
     if (eleID != prevLink){
+
       document.getElementById(prevLink).style.background='#022731';
-      document.getElementById(prevLink).style.color='white';}
+      document.getElementById(prevLink).style.color='white';
+    }
     prevLink=eleID;
 }
 //Rendering MENU

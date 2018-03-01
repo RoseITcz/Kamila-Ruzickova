@@ -1,6 +1,35 @@
 #obsah{
   position: relative;
   text-align: justify;
+  font-size: 4vh;
+  line-height: 8vh;
   width: 90vw;
   left: 0vw;
+}
+p,td {
+  font-size: 4vh;
+  line-height: 8vh;
+}
+td{
+  min-width: 15vw;
+  border-top:1px solid rgba(0,0,0,0.2);
+  border-radius: 0.8vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+tr{
+  height: 8vh;
+}
+a{
+  display: block;
+  background-color: rgba(0,0,0,0.1);
+  color:black;
+  font-family: sans-serif;
+  text-decoration: none;
+  border-radius: 1vh;
+  padding: 0.7vh;
+  font-size: 2.8vh;
+}
+a:hover{
+  background-color: rgba(0,0,0,0.3);
 }
