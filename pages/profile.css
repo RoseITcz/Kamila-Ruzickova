@@ -1,0 +1,14 @@
+#profile{
+  background-color: red;
+  position: fixed;
+  overflow-y: auto;
+  z-index: 998;
+  top:9.4vh;
+  left: 22vw;
+  height: 89.6vh;
+  width: 76vw;
+  border-radius: 10px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}

@@ -1,9 +1,9 @@
 var prevLink="about";
+var profileFlag=true;
 function changeLinkStyle(eleID){
     document.getElementById(eleID).style.background='white';
     document.getElementById(eleID).style.color='black';
     if (eleID != prevLink){
-
       document.getElementById(prevLink).style.background='rgba(255,255,255,0.75)';
       document.getElementById(prevLink).style.color='black';
     }
@@ -29,4 +29,15 @@ function renderPublications() {
 function renderNavigation() {
      document.getElementById("here").innerHTML='<object type="text/html" data="pages/navigation.html" ></object>';
      changeLinkStyle("navigation");
+}
+///////profile()
+function profile(){
+  if(profileFlag==true){
+    document.getElementById("profile").style.width='76vw';
+    profileFlag=false;
+  }
+  else{
+    document.getElementById("profile").style.width='0vw';
+    profileFlag=true;
+  }
 }

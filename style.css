@@ -1,6 +1,10 @@
 body{
   overflow: hidden;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 #topPanel{
   background-color: #033a49;
 
@@ -17,6 +21,7 @@ body{
   background-color: #033a49;
   position: fixed;
   overflow-y: auto;
+  z-index: 999;
   top:9.4vh;
   left: 1vw;
   height: 89.6vh;
@@ -25,6 +30,84 @@ body{
   font-family: sans-serif;
   color: white;
   text-align: center;
+
+}
+#profile{
+  background-color: #033a49;
+  position: fixed;
+  overflow-y: auto;
+  z-index: 998;
+  top:9.4vh;
+  left: 22vw;
+  height: 89.6vh;
+  width: 0vw;
+  border-radius: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+#profile h2{
+  text-align: center;
+  margin: auto;
+  font-size: 1.8vw;
+}
+#profile h3{
+  margin-left: 0px;
+  font-size: 1.3vw;
+}
+#profile table,td,th{
+  margin-top: 2vh;
+  padding-left: 1.2vw;
+  padding-right: 1.2vw;
+  width: 76vw;
+}
+#profile th{
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+}
+#profile img{
+  width: 2vw;
+}
+.profAvatar{
+  width: 1vw;
+}
+#profileIcon{
+  display: inline-block;
+  background-color: white;
+  border: solid 2px white;
+  margin: 0.6vw;
+  border-radius:0.6vw;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+#profileIcon:hover{
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+#profileIcon img  {
+  width: 5vw;
+  padding-top: 5px;
+  }
+#profileIcon h2{
+  margin-top: -4%;
+  font-size: 1.8vw;
+  color: #033a49;
+  padding-top: 5px;
+  padding-left: 1.75vw;
+  padding-right: 1.75vw;
+}
+#clickSpace{
+  position: fixed;
+z-index: 999;
+top:89.4vh;
+left: 1vw;
+height: 89.6vh;
+  width: 20vw;
+border-radius: 10px;
+}
+#panel:hover{
 
 }
 #logo{
@@ -65,13 +148,25 @@ body{
     text-decoration: none; /* Remove underline from links */
     font-family: sans-serif;
     font-size: 1.9vw;
-}
+  }
 .menuitem:hover {
     background-color: rgba(255,255,255,1);
     color: black;
 }
 #links{
-  margin-top: 0.6vw;
+  margin: 0.6vw;
+}
+#links img{
+  margin: 0.15vw;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+#links img:hover{
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
 }
 .linkicons{
   width: 3.9vw;
@@ -79,6 +174,9 @@ body{
 }
 #ending{
   text-align: center;
+  position: fixed;
+  bottom: 5vh;
+  left: 7vw;
   font-size:0.8vw;
   margin-top:-0.8vw;
   color: gray;
@@ -92,6 +190,7 @@ body{
 #here object {
   position: fixed;
   top:16vh;
+  z-index: 100;
   left: 27vw;
   width: 72.9999vw;
   padding-right: 6vw;
@@ -102,5 +201,6 @@ body{
 @media only screen and (max-width: 900px){
   #here object {
     top:14vh;
+
   }
 }

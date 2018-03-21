@@ -4,29 +4,52 @@
     <meta charset="utf-8">
     <title>PhDr. Kamila Ruzickova, Ph.D.</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <div id="cssload"></div>
   </head>
   <body onload="renderAbout()">
     <div id="topPanel">
       <div id="menu">
         <a id="about" class="menuitem" href="#" onclick="renderAbout()">Úvod</a>
         <a id="cv" class="menuitem" href="#" onclick="renderCV()">Životopis</a>
-        <a id="publications" class="menuitem" href="#" onclick="renderPublications()">Publications</a>
-        <a id="navigation" class="menuitem" href="#" onclick="renderNavigation()">Navigation</a>
+        <a id="publications" class="menuitem" href="#" onclick="renderPublications()">Publikace</a>
+        <a id="navigation" class="menuitem" href="#" onclick="renderNavigation()">Navigace</a>
       </div>
     </div>
     <div id="panel">
-
-          <a href="index.html"><img id="logo" src="logos/profilePicture.jpg" alt="Kamila's profile picture, which shows her face."></a>
+          <a onclick="profile()" href="#"><img id="logo" src="logos/profilePicture.jpg" alt="Kamila's profile picture, which shows her face.">
           <h1 id="main-header">PhDr. Kamila Ruzickova, Ph.D.</h1>
-          <h2 id="main-subheader">Specialist, scholar<br>and publisher in the field<br>of special education</h2>
+          <h2 id="main-subheader">Specialist, scholar<br>and publisher in the field<br>of special education</h2></a>
 
       <div id="links">
+        <a  id="profileIcon" onclick="profile()" href="#"><img alt="Profile info tab of Kamila Ruzickova" src="logos/user.svg" /><h2>Profil</h2></a><br />
         <a href="https://www.facebook.com/kamila.ruzickova.566"><img class="linkicons" src="logos/facebook.svg" alt="Facebook icon, containing white letter F and blue background. On click, Kamila's facebook page will appear."></a>
         <a href="https://www.linkedin.com/in/růžičková-kamila-94b75454/"><img class="linkicons" src="logos/linkedin.svg" alt="Logo of linkedin, black letters in and blue background. On click, Kamila's linked in website appears"></a>
       </div>
       <div id="ending">
         <a href="http://www.facebook.com/"><p>&#x24B8; Karel Ruzicka 2017</p></a>
       </div>
+    </div>
+    <div id="profile">
+      <table>
+        <tr>
+          <th colspan="4"><h2>PhDr. Kamila Ruzickova, Ph.D.</h2></th>
+        </tr>
+        <tr>
+          <td class="profAvatar"><img src="logos/star.svg" /></td><td><h3>Narozena v Pardubicích 12.3.1971</h3></td>
+          <td class="profAvatar"><img src="logos/home.svg" /></td><td><h3>Bydlí a působí v Hradci Králové</h3></td>
+        </tr>
+        <tr>
+          <td class="profAvatar"><img src="logos/work.svg" /></td><td><h3>Pracuje na Univerzitě Hradec Králové</h3></td>
+          <td class="profAvatar"><img src="logos/work2.svg" /></td><td><h3>Pracuje v Speciálně Pedagogickém Centru HK</h3></td>
+        </tr>
+        <tr>
+          <td class="profAvatar"><img src="logos/research2.svg" /></td><td><h3>25 let praxe v rehabilitaci osob se zrakovým postižením</h3></td>
+          <td class="profAvatar"><img src="logos/teaching.svg" /></td><td><h3>Vedoucí dětské církve Mozaika HK</h3></td>
+        </tr>
+        <tr>
+          <th colspan="4"><h2>Významné publikace a činnost</h2></th>
+        </tr>
+      </table>
     </div>
     <div id="here">
       <img id="logo" src="../logos/logo.svg" alt="Logo of the website, contains two eyes and their eyebrows. The logo is in blue and white on black background.">
