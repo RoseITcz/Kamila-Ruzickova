@@ -113,7 +113,7 @@ border-radius: 10px;
 #logo{
   margin-top: 0.5vw;
   width:14vw;
-  border-radius: 20%;
+  border-radius: 1vw;
 }
 #main-header{
   font-size:2vw;
@@ -136,7 +136,7 @@ border-radius: 10px;
     height: 5vh;
     padding-top: 1.9vh; /* Add some padding */
     margin-top: 0.3vh;
-    margin-left: -0.5vh;
+    margin-left: -0.55vh;
     padding-bottom: 1vh; /* Add some padding */
     padding-left: 1.2vw;
     padding-right: 1.2vw;
