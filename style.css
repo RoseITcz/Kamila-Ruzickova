@@ -1,5 +1,6 @@
 body{
   overflow: hidden;
+  letter-spacing: 0.07vw;
 }
 a{
   text-decoration: none;
@@ -97,6 +98,15 @@ a{
   padding-top: 5px;
   padding-left: 1.75vw;
   padding-right: 1.75vw;
+}
+#profileContact{
+  position: absolute;
+  bottom:0px;
+  border-top:1px solid rgba(255,255,255,0.4);
+  width: 73.4vw;
+}
+#pngImg{
+  border-radius: 5px;
 }
 #clickSpace{
   position: fixed;
