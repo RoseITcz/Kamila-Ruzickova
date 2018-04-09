@@ -18,6 +18,28 @@ a{
   font-family: sans-serif;
   color: white;
 }
+#langFlags{
+  position: absolute;
+  vertical-align: middle;
+  top:1.85vh;
+  font-size: 3vh;
+  text-decoration: none; /* Remove underline from links */
+  font-family: sans-serif;
+  font-size: 1.9vw;
+}
+#langFlags a{
+  padding: 1vh;
+}
+#otherLang:hover {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 0.7vw;
+
+}
+#currentLang{
+  background-color: white;
+  color: black;
+  border-radius: 0.7vw;
+}
 #panel{
   background-color: #033a49;
   position: fixed;
