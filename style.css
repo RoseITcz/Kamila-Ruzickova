@@ -98,6 +98,8 @@ a{
   background-color: white;
   border: solid 2px white;
   margin: 0.6vw;
+  width: 8vw;
+  height: 19vh;
   border-radius:0.6vw;
   -webkit-transition: -webkit-transform 0.5s ease;
   -moz-transition: -moz-transform 0.5s ease;
@@ -118,8 +120,7 @@ a{
   font-size: 1.8vw;
   color: #033a49;
   padding-top: 5px;
-  padding-left: 1.75vw;
-  padding-right: 1.75vw;
+  text-align: center;
 }
 #profileContact{
   position: absolute;

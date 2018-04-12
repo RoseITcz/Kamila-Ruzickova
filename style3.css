@@ -42,3 +42,13 @@ a{
 a:hover{
   background-color: rgba(0,0,0,0.3);
 }
+#reading_rehab{
+  float: right;
+  position: relative;
+  top:1.3vh;
+  padding-left: 2vw;
+}
+#credits a{
+  display: inline-block;
+  padding: 0px;
+}
