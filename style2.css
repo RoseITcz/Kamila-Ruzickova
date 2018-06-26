@@ -1,0 +1,153 @@
+div .ramecek{
+  list-style-type: none;
+  display: inline-block;
+  width: 25vw;
+  margin: 2.4%;
+  align-items: center;
+  vertical-align: middle;
+  align-content: center;
+  position: relative;
+  left: -2vw;
+}
+table{
+  background: rgba(3, 58, 73, 0.15);
+  border-radius: 1.3vw;
+  width: 30vw;
+  word-break:break-word;
+  transition: all .2s ease-in-out;
+
+  border: 3px solid rgba(3, 58, 73, 0.07);
+}
+table:hover{
+  transform: scale(1.024);
+  border: 3px solid rgba(3, 58, 73, 0.3);
+}
+.icDt td{
+  width: 2vw;
+}
+td{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  font-size: 3vh;
+}
+tr{
+  margin-top: -20px;
+  margin-bottom: -20px;
+  padding: 0px;
+}
+.icon img{
+  width:3vw;
+}
+.ramecek .covr img{
+  object-fit: cover;
+  width: 138%;
+  margin-left: -19%;
+  margin-top: -50px;
+  margin-bottom: -20px;
+  height: 30vh;
+}
+.ramecek a{
+  display: block;
+  background-color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  border-radius: 1vh;
+  font-size: 4vh;
+  padding: 0.7vh;
+}
+.ramecek a:hover{
+  background-color: rgba(255,255,255,1);
+}
+#nnn{
+  display: none;
+}
+
+
+/*.ramecek{
+  width: 44%;
+  margin: 1%;
+  display: inline-block;
+  background-color: rgba(230, 230, 255,0.5);
+  padding: 1.5%;
+  border-radius: 4vw;
+  overflow:hidden;
+  text-align: center;
+}
+.ramecek:hover{
+  background-color: rgba(230, 230, 255,0.9);
+
+}
+  @media only screen and (max-width: 900px){
+    .ramecek{
+      width: 98%;
+    }
+  }
+
+.ramecek ul{
+ display: inline-block;
+}
+.ramecek li{
+  display: inline-block;
+}
+.ramecek img{
+  width: 50%;
+  vertical-align: center;
+  background-color: white;
+  border-radius: 2vw;
+  margin-top: 5vw;
+  margin-bottom: 8vw;
+}
+.ramecek figure img{
+  display: block;
+  width: 100%;
+  vertical-align: middle;
+  object-position: center;
+  margin: 0px;
+  border-radius:10px;
+  margin-top: -20%;
+  margin-bottom: -20%;
+}
+.narrow{
+  text-align: right;
+}
+.publisher li{
+  width: 50%;
+  text-align: center;
+}*/
+
+
+
+
+
+#obsah{
+  position: relative;
+  text-align: justify;
+  font-size: 3vh;
+  line-height: 8vh;
+  width: 92vw;
+  left: 0vw;
+}
+h1{
+  font-size: 7vh;
+  text-align: left;
+  font-family: sans-serif;
+}
+h2,h3,ul,li,tr,td{
+  font-family: sans-serif;
+}
+p,td,li {
+  font-size: 4vh;
+  line-height: 8vh;
+  font-family: sans-serif;
+}
+a{
+  display: block;
+  background-color: rgba(0,0,0,0.1);
+  color:black;
+  font-family: sans-serif;
+  text-decoration: none;
+  border-radius: 1vh;
+  padding: 0.7vh;
+  font-size: 2.8vh;
+}

@@ -51,4 +51,8 @@ a:hover{
 #credits a{
   display: inline-block;
   padding: 0px;
+  font-size: 3.8vh;
+}
+#credits{
+  border-top: 1px solid rgba(0,0,0,0.2);
 }
