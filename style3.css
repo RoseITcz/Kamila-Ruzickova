@@ -38,6 +38,8 @@ a{
   border-radius: 1vh;
   padding: 0.7vh;
   font-size: 2.8vh;
+  target-name:new;
+  target-new:tab;
 }
 a:hover{
   background-color: rgba(0,0,0,0.3);
