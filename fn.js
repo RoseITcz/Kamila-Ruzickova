@@ -26,6 +26,10 @@ function renderPublications() {
      document.getElementById("here").innerHTML='<object type="text/html" data="pages/publications.html" ></object>';
      changeLinkStyle("publications");
 }
+function renderPublicationsCZ() {
+     document.getElementById("here").innerHTML='<object type="text/html" data="pages/publications_cze.html" ></object>';
+     changeLinkStyle("publicationsCZ");
+}
 function renderNavigation() {
      document.getElementById("here").innerHTML='<object type="text/html" data="pages/navigation.html" ></object>';
      changeLinkStyle("navigation");
